@@ -9,7 +9,10 @@ Complex Complex::operator+(const Complex &c) const {
 }
 
 void Complex::print() {
-    cout << "Real: " << this->real << " "
-         << "Imaginary: " << this->imaginary
-         << endl << endl;
+    cout << "Real: " << real << " Imaginary: " << imaginary;
+}
+
+ostream &operator<<(ostream &os, const Complex &complex) {
+    os << "Real: " << complex.real << " Imaginary: " << complex.imaginary;
+    return os;
 }

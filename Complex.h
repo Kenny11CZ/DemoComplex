@@ -13,6 +13,9 @@ class Complex {
 public:
     Complex(double real, double imaginary): real(real), imaginary(imaginary) {}
     Complex operator+(const Complex &c) const;
+
+    friend ostream &operator<<(ostream &os, const Complex &complex);
+
     void print();
 
 private:
