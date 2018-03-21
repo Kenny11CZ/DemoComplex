@@ -12,7 +12,7 @@ void testComplex() {
     s.str("");
 
     // First test, << operator
-    Complex c1(1,1);
+    Complex c1(1,0);
     s << c1;
     assert(s.str() == "Real: 1 Imaginary: 1");
     s.str("");
