@@ -1,4 +1,0 @@
-/home/kenny/Work/DemoComplex/CMakeFiles/rebuild_cache.dir
-/home/kenny/Work/DemoComplex/CMakeFiles/edit_cache.dir
-/home/kenny/Work/DemoComplex/CMakeFiles/DemoComplexTest.dir
-/home/kenny/Work/DemoComplex/CMakeFiles/DemoComplex.dir
