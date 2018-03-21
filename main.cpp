@@ -6,12 +6,12 @@ int main() {
     Complex c1(10, 20);
     Complex c2(5, 5);
     Complex c3 = c1 + c2;
-    cout << "C1" << endl;
-    c1.print();
-    cout << "C2" << endl;
-    c2.print();
-    cout << "C1+C2" << endl;
-    c3.print();
+//    cout << "C1" << endl;
+//    c1.print();
+//    cout << "C2" << endl;
+//    c2.print();
+//    cout << "C1+C2" << endl;
+//    c3.print();
 
     // Definitely lost
     cout << "Definitely lost" << endl;
