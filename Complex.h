@@ -17,7 +17,7 @@ public:
 
     friend ostream &operator<<(ostream &os, const Complex &complex);
 
-    void print();
+    void echo();
 
 private:
     double real;

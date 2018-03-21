@@ -8,7 +8,7 @@ Complex Complex::operator+(const Complex &c) const {
     return Complex(this->real+c.real, this->imaginary+c.imaginary);
 }
 
-void Complex::print() {
+void Complex::echo() {
     cout << "Real: " << real << " Imaginary: " << imaginary << endl;
 }
 
